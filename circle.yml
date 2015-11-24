@@ -1,14 +1,5 @@
-checkout:
-  post:
-    - cp .sample.env .env
-database:
-  override:
-    - bin/setup
 test:
+  pre:
+    - cp .sample.env .env
   override:
     - bin/rake
-deployment:
-  staging:
-    branch: master
-    commands:
-      - bin/deploy staging
