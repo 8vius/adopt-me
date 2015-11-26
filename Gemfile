@@ -20,6 +20,9 @@ gem "sass-rails", "~> 5.0"
 gem "simple_form"
 gem "title"
 gem "uglifier"
+gem 'neat', '~> 1.7', '>= 1.7.2'
+gem 'bourbon', '~> 4.2', '>= 4.2.6'
+gem 'devise', '~> 3.5', '>= 3.5.2'
 
 group :development do
   gem "quiet_assets"
