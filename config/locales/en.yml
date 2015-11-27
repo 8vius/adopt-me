@@ -17,3 +17,16 @@ en:
 
   titles:
     application: Adopt-me
+
+  users:
+    new:
+      select_category: "Select a category"
+      heading: "Sign up"
+      buttons:
+        sign_up: "Sign up"
+    categories:
+      people: "People"
+      shelter: "Shelter"
+      veterinary: "Veterinary"
+      pet_store: "Pet store"
+      pet_hotel: "Pet hotel"
